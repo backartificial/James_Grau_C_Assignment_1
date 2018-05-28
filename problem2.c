@@ -24,6 +24,8 @@ int compareNumber(const void*, const void*);
  * This method is used as the main area that runs the application
  * 
  * @return 0 on success
+ *
+ * @note : some adaption from https://stackoverflow.com/questions/25141168/integer-input-in-array-using-scanf
  * 
  **/
 int main() {
