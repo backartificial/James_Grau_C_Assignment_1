@@ -1,8 +1,9 @@
 /**
  * 
- * File:   main.c
+ * File:   problem1.c/problem2.txt
  * Author: James Grau
  * Date: May 25, 2018
+ * Part 1
  * 
 **/
 
@@ -13,7 +14,7 @@
 // Define a constant to hold the number of students
 const int SIZE = 100;
 
-// method declaration
+// Method declaration
 void printLockerConfiguration(bool[]);
 
 /**
@@ -55,8 +56,7 @@ int main() {
 void printLockerConfiguration(bool lockers[]) {
     // Display the line stating message
     printf("Open lockers: ");
-    
-    
+        
     // Loop through each locker array element
     for(int i = 0; i < SIZE; i++) {
         // If the current locker is open(true) perform the following
@@ -66,4 +66,3 @@ void printLockerConfiguration(bool lockers[]) {
         }
     }
 }
-
